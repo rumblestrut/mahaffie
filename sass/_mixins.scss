@@ -1,0 +1,27 @@
+/* Header Wrapper Background Mixin */
+
+@mixin header-wrapper-background {
+  background: url(../images/wood-06.jpg) repeat-x center;
+  border-bottom: 4px solid #fff;
+  box-shadow: 0 0 3px #888;
+}
+
+@mixin sidebar-and-column-background {
+  background-color: #fff;
+  border: 1px solid #efefef;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  padding-top: 10px;
+}
+
+@mixin shadow {
+  box-shadow: 0 0 3px #888;
+}
+
+@mixin text-font {
+  font-family: 'PT Sans';
+}
+
+@mixin pagerborder {
+	border: 2px solid #fff;
+	/* border-radius: 50%; */
+}

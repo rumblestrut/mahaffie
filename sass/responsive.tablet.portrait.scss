@@ -1,0 +1,143 @@
+
+// _base.scss imports _custom.scss and other partials.
+@import "base";
+
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* Increase the body font size on small devices */
+html {
+  font-size: 112.5%; 
+}
+
+
+//Logo
+ #branding {
+ 	width: 200px;
+ }
+
+// Header design
+#weather {
+	float: right;
+	margin-top: -104px;
+	margin-right: 8px;
+	text-align: right;
+}
+
+// Search block in header
+#block-search-form {
+	clear: both;
+	margin-top: -74px;
+	float: right;
+}
+
+//Search button
+#edit-submit.form-submit {
+	font-size: 16px;
+}
+
+//Menu
+#primary-menu-bar {
+	font-weight: bold;
+	font-size: 12px;
+  text-transform: uppercase;
+	a {
+
+    &:link,
+    &:visited {
+      color: $mahaffie-black;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      color: $mahaffie-blue;
+      text-decoration: none;
+    }
+  }
+    li.menu-402 {
+    a {
+      color: $mahaffie-red;
+        &:hover,
+        &:focus {
+          color: $mahaffie-blue;
+          text-decoration: none;
+        }
+    }
+  }
+}
+
+#primary-menu-bar ul li {
+	border-right: 1px solid #ccc;
+	margin-right: 6px;	
+}
+
+#primary-menu-bar ul li.last {
+	border-right: none;
+}
+
+/* Image map for Grounds Map */
+dl#maMap{
+  @include shadow;
+  border: 2px solid white;
+	margin: 0;
+	padding: 0;
+        background: transparent url('/sites/default/files/mahaffie-grounds-map.png') top left no-repeat;
+        height: 644px;
+        width: 750px;
+	position: relative;
+}
+
+/*
+ * Grounds Map Legend 
+*/
+	table#grounds-map-legend {
+	margin: 0 auto;
+	width: 750px;
+}
+
+//Footer designs
+
+//Mahaffie footer
+#block-block-1 {
+}
+
+// City of Olathe Footer Block
+#block-block-3 {
+  width: 220px;
+}
+
+// Parks & Recreation Footer Block
+#block-block-4 {
+  width: 240px;
+}
+
+#block-block-3 p, #block-block-4 p {
+  margin-bottom: 2px;
+}
+
+// Mini Panel Styles
+h2.pane-title.block-title {
+	font-size: 18px;
+	a {
+    &:link,
+    &:visited {
+      color: #000;
+      padding-bottom: 4px;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      color: $mahaffie-blue;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,144 @@
+
+// _base.scss imports _custom.scss and other partials.
+@import "base";
+
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* 
+ * Header Styles 
+ */
+
+//Headings
+.pane-node-content > div:nth-child(1) > h2 {
+	font-size: 30px;
+	margin-bottom: 2px;
+}
+
+div.field-item > h3 {
+	font-size: 24px;
+	margin-bottom: 2px;
+}
+
+//Menu
+#primary-menu-bar {
+	font-weight: bold;
+	font-size: 18px;
+  text-transform: uppercase;
+	a {
+
+    &:link,
+    &:visited {
+      color: $mahaffie-black;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      color: $mahaffie-blue;
+      text-decoration: none;
+    }
+  }
+    li.menu-402 {
+    a {
+      color: $mahaffie-red;
+        &:hover,
+        &:focus {
+          color: $mahaffie-blue;
+          text-decoration: none;
+        }
+    }
+  }
+}
+
+#primary-menu-bar ul li {
+	border-right: 1px solid #ccc;
+	margin-right: 6px;	
+}
+
+#primary-menu-bar ul li.last {
+	border-right: none;
+}
+
+//Logo
+ #branding {
+ 	width: 300px;
+ }
+
+// Header design
+#weather {
+	float: right;
+	margin-top: -130px;
+	margin-right: 8px;
+	text-align: right;
+}
+
+// Search block in header
+#block-search-form {
+	clear: both;
+	margin-top: -100px;
+	float: right;
+}
+
+//Search button
+#edit-submit.form-submit {
+	font-size: 16px;
+}
+
+//Communications block
+#block-block-5 {
+	border: 1px solid brown;
+	float: right;
+	height: 45px;
+	margin-bottom: 0px;
+	text-align: right;
+}
+
+//Footer designs
+
+//Mahaffie footer
+#block-block-1 {
+	float: left;
+  width: 600px;
+}
+
+// City of Olathe Footer Block
+#block-block-3 {
+  float: left;
+}
+
+// Parks & Recreation Footer Block
+#block-block-4 {
+  float: left;  
+}
+
+#block-block-3 p, #block-block-4 p {
+  margin-bottom: 2px;
+}
+
+// Mini Panel Styles
+h2.pane-title.block-title {
+	font-size: 18px;
+	a {
+    &:link,
+    &:visited {
+      color: #000;
+      padding-bottom: 4px;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      color: $mahaffie-blue;
+      text-decoration: none;
+    }
+  }
+}
+

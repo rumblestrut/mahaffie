@@ -1,0 +1,302 @@
+dt{ margin: 0; padding: 0; position: absolute; font-size: 85%; display: none; }
+dd{ margin: 0; padding: 0; position: absolute;  font-size: 85%; }
+dd a{ outline: none; }
+dd a:active{ outline: none; -moz-outline: none;}
+
+/* Image map for Grounds Map */
+dl#maMap{
+  @include shadow;
+  border: 2px solid white;
+	margin: 0 auto;
+	padding: 0;
+        background: transparent url('/sites/default/files/mahaffie-grounds-map.png') top left no-repeat;
+        height: 644px;
+        width: 900px;
+	position: relative;
+}
+#alert{
+	float: right;
+	width: 250px;
+	font-size: 85%;
+	background: #eaa7aa;
+	border: 1px solid #666;
+	padding: 5px;
+}
+.div-with-bg a {text-decoration: none}
+
+/* ---------------- Position boxes around each numbered point on image -------------------------------------- */
+
+dd#hcDef{ top: 57px; left: 577px; }
+dd#hcDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#hcDef a span{ display: none;  text-decoration:none;}
+dd#hcDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#houseDef{ top: 237px; left: 418px; }
+dd#houseDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#houseDef a span{ display: none;  text-decoration:none;}
+dd#houseDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2800%;
+}
+
+dd#barnDef{ top: 411px; left: 249px; }
+dd#barnDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#barnDef a span{ display: none;  text-decoration:none;}
+dd#barnDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#gardenDef{ top: 231px; left: 469px; }
+dd#gardenDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#gardenDef a span{ display: none;  text-decoration:none;}
+dd#gardenDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#icehouseDef{ top: 238px; left: 321px; }
+dd#icehouseDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#icehouseDef a span{ display: none;  text-decoration:none;}
+dd#icehouseDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#farmimpDef{ top: 310px; left: 296px; }
+dd#farmimpDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#farmimpDef a span{ display: none;  text-decoration:none;}
+dd#farmimpDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#cellarDef{ top: 262px; left: 385px; }
+dd#cellarDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#cellarDef a span{ display: none;  text-decoration:none;}
+dd#cellarDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#animalpenDef{ top: 163px; left: 391px; }
+dd#animalpenDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#animalpenDef a span{ display: none;  text-decoration:none;}
+dd#animalpenDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#chickenDef{ top: 186px; left: 353px; }
+dd#chickenDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#chickenDef a span{ display: none;  text-decoration:none;}
+dd#chickenDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#washDef{ top: 187px; left: 301px; }
+dd#washDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#washDef a span{ display: none;  text-decoration:none;}
+dd#washDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#smokeDef{ top: 216px; left: 307px; }
+dd#smokeDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#smokeDef a span{ display: none;  text-decoration:none;}
+dd#smokeDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#horseDef{ top: 228px; left: 289px; }
+dd#horseDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#horseDef a span{ display: none;  text-decoration:none;}
+dd#horseDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#blacksmithDef{ top: 217px; left: 249px; }
+dd#blacksmithDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#blacksmithDef a span{ display: none;  text-decoration:none;}
+dd#blacksmithDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2800%;
+}
+
+dd#pegDef{ top: 246px; left: 205px; }
+dd#pegDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#pegDef a span{ display: none;  text-decoration:none;}
+dd#pegDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+
+dd#crop1Def{ top: 285px; left: 649px; }
+dd#crop1Def a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#crop1Def a span{ display: none;  text-decoration:none;}
+dd#crop1Def a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+
+dd#crop2Def{ top: 177px; left: 532px; }
+dd#crop2Def a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#crop2Def a span{ display: none;  text-decoration:none;}
+dd#crop2Def a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+
+dd#crop3Def{ top: 87px; left: 293px; }
+dd#crop3Def a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#crop3Def a span{ display: none;  text-decoration:none;}
+dd#crop3Def a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 2200%;
+}
+
+dd#pubrestroomDef{ top: 298px; left: 138px; }
+dd#pubrestroomDef a{ position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39;}
+dd#pubrestroomDef a span{ display: none;  text-decoration:none;}
+dd#pubrestroomDef a:hover span{
+ background-color: #f2f2f2;
+ border: 2px solid #ef9a01;
+ bottom: 100%;
+ cursor: default;
+ display: table;
+ padding: 5px;
+ position: relative;
+ width: 800%;
+}
+
+/* =============================================================================
+ *   Grounds Map Image Style
+ * ========================================================================== */
+div.field-items figure img.image-style-none[src$="grounds-map-image.png"] {
+	display: none;
+}
+
+/* About Us Image Style */
+div.field-items figure img.image-style-none[src$="jb-and-lucinda.jpg"] {
+	display: none;
+}
+
+/*
+ * Grounds Map Legend 
+*/
+	table#grounds-map-legend {
+	margin: 0 auto;
+	width: 902px;
+}

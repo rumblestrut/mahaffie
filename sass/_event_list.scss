@@ -1,0 +1,70 @@
+#block-mahaffie-calendar-mahaffie-calendar-top-five { position: relative; }
+#block-mahaffie-calendar-mahaffie-calendar-top-five .content { padding-bottom: 0 !important; }
+
+#more_link {
+  position: relative;
+  width: 256px;
+  top: .5em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+#more_list a { 
+  color: #000; 
+  font-weight: bold;
+}
+
+
+.top5_event { margin-bottom: 10px; }
+
+.event {
+  position: relative;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  min-height: 45px;
+}
+
+.event .title { font-weight: bold; color: #F96F17; }
+.event .title, .event .teaser { margin-left: 110px; }
+.teaser p { padding: 0; }
+
+.top5_event .title { line-height: 20px; padding-top: 4px; }
+.top5_event .title a {
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.top5_event .title a:hover {
+  color: $mahaffie-blue;
+  text-decoration: none;
+}
+
+.top5_event .datetime {
+  width: 60px;
+  height: auto;
+  float: left;
+  background-color: #981b1e;
+  color: #ffc20e;
+  margin-right: 10px;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  box-shadow: 0 0 3px gray;
+}
+
+.event .datetime {
+  float: left;
+  width: 90px;
+  background-color: #981b1e;
+  color: #ffc20e;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 3px #888;
+}
+
+.clear { clear: both; }
+
+.item-list .pager { margin-top: 25px; padding-top: 5px; border-top: 1px solid #ddd; }

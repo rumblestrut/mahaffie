@@ -1,0 +1,325 @@
+/* Header Wrapper Background Mixin */
+#block-mahaffie-calendar-mahaffie-calendar-top-five { position: relative; }
+
+#block-mahaffie-calendar-mahaffie-calendar-top-five .content { padding-bottom: 0 !important; }
+
+#more_link { position: relative; width: 256px; top: .5em; text-align: center; font-weight: bold; font-size: 20px; }
+
+#more_list a { color: #000; font-weight: bold; }
+
+.top5_event { margin-bottom: 10px; }
+
+.event { position: relative; border-top: 1px solid #ddd; padding-top: 15px; margin-bottom: 15px; min-height: 45px; }
+
+.event .title { font-weight: bold; color: #F96F17; }
+
+.event .title, .event .teaser { margin-left: 110px; }
+
+.teaser p { padding: 0; }
+
+.top5_event .title { line-height: 20px; padding-top: 4px; }
+
+.top5_event .title a { color: #000; font-size: 16px; text-decoration: none; }
+
+.top5_event .title a:hover { color: #0088cc; text-decoration: none; }
+
+.top5_event .datetime { width: 60px; height: auto; float: left; background-color: #981b1e; color: #ffc20e; margin-right: 10px; padding: 5px; text-align: center; font-size: 12px; box-shadow: 0 0 3px gray; }
+
+.event .datetime { float: left; width: 90px; background-color: #981b1e; color: #ffc20e; padding: 5px; text-align: center; font-size: 16px; box-shadow: 0 0 3px #888; }
+
+.clear { clear: both; }
+
+.item-list .pager { margin-top: 25px; padding-top: 5px; border-top: 1px solid #ddd; }
+
+.content { position: relative; }
+
+#display-selectors { width: 680px; margin-bottom: 20px; }
+
+#display-selectors a { color: #fff !important; font-weight: bold; background-color: #777; padding: 5px 7px; margin-right: 5px; border: 1px solid #555; text-decoration: none !important; }
+
+#display-selectors a.active { color: #999 !important; background-color: #f3f3f3; border-color: #ddd; }
+
+#calendar tbody { border: none; }
+
+.view-filters { display: none; }
+
+.fc-header-title h2 { border: none !important; }
+
+.fc-content { clear: none !important; }
+
+#side-selectors { width: 190px; position: absolute; top: 0; right: 0; }
+
+#side-selectors h3 { text-align: center; margin-bottom: 5px; }
+
+#subcalendar-selector, #location-selector { width: 100%; padding: 5px 0 10px 0; margin-bottom: 10px; border: 1px solid #ccc; background-color: #981b1e; color: #fff; text-align: center; }
+
+#subcalendar-selector select, #location-selector select { width: 160px; }
+
+#event_details { margin: 20px; padding: 10px; border: 2px solid #F96F17; background-color: #eee; font-size: 1.25em; line-height: 1.5em; }
+
+#event_details h2 { font-size: 20px; margin-bottom: 15px; color: #5F5F5F; }
+
+#event_details table { width: 100%; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin-bottom: 15px; }
+
+#event_details tbody { border: none; }
+
+#event_details td { padding-top: 5px; }
+
+#event_details a { color: #6E953C; }
+
+#event_details .pr { width: 1%; font-weight: bold; text-align: right; vertical-align: top; padding-right: 10px; white-space: nowrap; }
+
+dt { margin: 0; padding: 0; position: absolute; font-size: 85%; display: none; }
+
+dd { margin: 0; padding: 0; position: absolute; font-size: 85%; }
+
+dd a { outline: none; }
+
+dd a:active { outline: none; -moz-outline: none; }
+
+/* Image map for Grounds Map */
+dl#maMap { box-shadow: 0 0 3px #888; border: 2px solid white; margin: 0 auto; padding: 0; background: transparent url("/sites/default/files/mahaffie-grounds-map.png") top left no-repeat; height: 644px; width: 900px; position: relative; }
+
+#alert { float: right; width: 250px; font-size: 85%; background: #eaa7aa; border: 1px solid #666; padding: 5px; }
+
+.div-with-bg a { text-decoration: none; }
+
+/* ---------------- Position boxes around each numbered point on image -------------------------------------- */
+dd#hcDef { top: 57px; left: 577px; }
+
+dd#hcDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#hcDef a span { display: none; text-decoration: none; }
+
+dd#hcDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#houseDef { top: 237px; left: 418px; }
+
+dd#houseDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#houseDef a span { display: none; text-decoration: none; }
+
+dd#houseDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2800%; }
+
+dd#barnDef { top: 411px; left: 249px; }
+
+dd#barnDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#barnDef a span { display: none; text-decoration: none; }
+
+dd#barnDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#gardenDef { top: 231px; left: 469px; }
+
+dd#gardenDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#gardenDef a span { display: none; text-decoration: none; }
+
+dd#gardenDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#icehouseDef { top: 238px; left: 321px; }
+
+dd#icehouseDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#icehouseDef a span { display: none; text-decoration: none; }
+
+dd#icehouseDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#farmimpDef { top: 310px; left: 296px; }
+
+dd#farmimpDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#farmimpDef a span { display: none; text-decoration: none; }
+
+dd#farmimpDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#cellarDef { top: 262px; left: 385px; }
+
+dd#cellarDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#cellarDef a span { display: none; text-decoration: none; }
+
+dd#cellarDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#animalpenDef { top: 163px; left: 391px; }
+
+dd#animalpenDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#animalpenDef a span { display: none; text-decoration: none; }
+
+dd#animalpenDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#chickenDef { top: 186px; left: 353px; }
+
+dd#chickenDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#chickenDef a span { display: none; text-decoration: none; }
+
+dd#chickenDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#washDef { top: 187px; left: 301px; }
+
+dd#washDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#washDef a span { display: none; text-decoration: none; }
+
+dd#washDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#smokeDef { top: 216px; left: 307px; }
+
+dd#smokeDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#smokeDef a span { display: none; text-decoration: none; }
+
+dd#smokeDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#horseDef { top: 228px; left: 289px; }
+
+dd#horseDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#horseDef a span { display: none; text-decoration: none; }
+
+dd#horseDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#blacksmithDef { top: 217px; left: 249px; }
+
+dd#blacksmithDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#blacksmithDef a span { display: none; text-decoration: none; }
+
+dd#blacksmithDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2800%; }
+
+dd#pegDef { top: 246px; left: 205px; }
+
+dd#pegDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#pegDef a span { display: none; text-decoration: none; }
+
+dd#pegDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#crop1Def { top: 285px; left: 649px; }
+
+dd#crop1Def a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#crop1Def a span { display: none; text-decoration: none; }
+
+dd#crop1Def a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#crop2Def { top: 177px; left: 532px; }
+
+dd#crop2Def a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#crop2Def a span { display: none; text-decoration: none; }
+
+dd#crop2Def a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#crop3Def { top: 87px; left: 293px; }
+
+dd#crop3Def a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#crop3Def a span { display: none; text-decoration: none; }
+
+dd#crop3Def a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 2200%; }
+
+dd#pubrestroomDef { top: 298px; left: 138px; }
+
+dd#pubrestroomDef a { position: absolute; width: 16px; height: 15px; text-decoration: none; border: 0px solid #ff1f39; }
+
+dd#pubrestroomDef a span { display: none; text-decoration: none; }
+
+dd#pubrestroomDef a:hover span { background-color: #f2f2f2; border: 2px solid #ef9a01; bottom: 100%; cursor: default; display: table; padding: 5px; position: relative; width: 800%; }
+
+/* ============================================================================= Grounds Map Image Style ========================================================================== */
+div.field-items figure img.image-style-none[src$="grounds-map-image.png"] { display: none; }
+
+/* About Us Image Style */
+div.field-items figure img.image-style-none[src$="jb-and-lucinda.jpg"] { display: none; }
+
+/* Grounds Map Legend 
+*/
+table#grounds-map-legend { margin: 0 auto; width: 902px; }
+
+/* @file Print Styles This probably needs work, but it's a good starting point. */
+/* Body */
+body { width: 100% !important; margin: 0 !important; padding: 0 !important; line-height: 1.4; word-spacing: 1.1pt; letter-spacing: 0.2pt; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color: black; background: none; font-size: 11pt; }
+
+/* Links */
+a { background: transparent; font-weight: 700; text-decoration: underline; color: #0000ee; }
+a[href^="http://"]:after, a[href^="http://"]:visited:after { content: "(" attr(href) ")"; font-size: 10pt; }
+
+/* Strip background from likely candidates */
+div[id*="wrapper"], [class*="title"], [class*="inner"], header, footer, #branding, #container, #columns, .columns-inner, #content-column, .content-inner, .region, .region-header, .region-content, .article, .article-title, .article-content, .comment, .comment-title, .comment-content, .block, .block-inner, .block-title, .block-content, table, table * { background: none !important; }
+
+/* Hide various bits of the page */
+.sidebar, #breadcrumb, .nav, .field-type-taxonomy-term-reference, ul.links, .feed-icon, .poll .bar, .poll .foreground, .comment-form, #comment-form, .book-navigation, .tabs, .action-links, .pager, .messages, .help { display: none; }
+
+/* Ensure the display the main content region */
+#content { display: block !important; }
+
+/* Layout */
+#header { margin-bottom: 20px; }
+
+.content-inner { margin: 0 !important; padding: 0 !important; }
+
+/* HTML elements */
+h1, h2, h3, h4, h5, h6 { color: #333333; margin: 0; padding: 0; line-height: 1; }
+
+h1 { font-size: 14pt; }
+
+h2 { font-size: 13pt; }
+
+h3 { font-size: 12pt; }
+
+h4, h5, h6 { font-size: 11pt; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, #site-name a, #site-slogan { text-decoration: none !important; color: #333333; }
+
+hgroup a:link, hgroup a:visited { text-decoration: none; }
+
+#page-title { margin-top: 20px; }
+
+pre, code, tt, samp, kbd, var { font-size: 10pt; font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif; }
+
+blockquote { margin: 20px; padding: 10px; font-size: 10pt; font-style: italic; background: #eeeeee; }
+
+hr { background-color: #666666; }
+
+/* Header, Logo, Site name */
+#header { padding-bottom: 20px; }
+
+#logo img { padding: 0 10px 0 0; margin: 0 !important; float: none !important; }
+
+/* Images */
+img { float: left; margin: 4px 20px 10px 0; page-break-inside: avoid; }
+
+a img { border: none; }
+
+/* Tables */
+table { margin: 1px; text-align: left; }
+
+th { border-bottom: 1px solid #333333; font-weight: 700; }
+
+td { border-bottom: 1px solid #333333; }
+
+th, td { padding: 4px 10px 4px 0; }
+
+tfoot { font-style: italic; }
+
+caption { margin-bottom: 10px; text-align: left; }
+
+thead { display: table-header-group; }
+
+tr { page-break-inside: avoid; }
+
+/* Forms */
+form { margin-bottom: 10px; }
+
+/* Poll module */
+.poll .text, .poll .percent, .poll .total { text-align: left; }
+.poll form { margin-bottom: 0; }
+
+/* Articles */
+.node, .comment { margin-bottom: 20px; overflow: hidden; page-break-inside: avoid; }
+
+.submitted { color: #666666; text-decoration: none; font-size: 9pt; font-weight: 400; margin: 0; padding: 0; }
+.submitted a { color: #666666; text-decoration: none; font-size: 9pt; font-weight: 400; margin: 0; padding: 0; }

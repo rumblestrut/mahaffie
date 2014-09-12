@@ -1,0 +1,47 @@
+
+// _base.scss imports _custom.scss and other partials.
+@import "base";
+
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* Increase the body font size on small devices */
+html {
+  font-size: 112.5%; 
+}
+
+/* 
+ * Navigation bar styles
+ */
+ul.menu.primary-menu li {
+  border-bottom: 1px dotted grey;
+  margin: 2px;
+  width: 100%;
+  text-align: left;
+}
+
+// Mini Panel Styles
+h2.pane-title.block-title {
+	font-size: 18px;
+	a {
+    &:link,
+    &:visited {
+      color: #000;
+      padding-bottom: 4px;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      color: $mahaffie-blue;
+      text-decoration: none;
+    }
+  }
+}
